@@ -2,10 +2,13 @@
 www.cambotourism.com
 ## Project setup
 ```
-npm install
+cp .env.example .env
 ```
 ```
 composer update
+```
+```
+php artisan key:generate
 ```
 
 ### Compiles and hot-reloads for development
