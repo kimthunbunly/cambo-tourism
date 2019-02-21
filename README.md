@@ -1,6 +1,11 @@
 # cambo-tourism
 www.cambotourism.com
-# Install
-npm i
-# Run
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
 php artisan serve & npm run watch
+```
