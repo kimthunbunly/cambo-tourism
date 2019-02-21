@@ -4,6 +4,9 @@ www.cambotourism.com
 ```
 npm install
 ```
+```
+composer update
+```
 
 ### Compiles and hot-reloads for development
 ```
