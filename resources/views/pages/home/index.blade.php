@@ -57,23 +57,145 @@
             <div class="row justify-content-center">
                 <div class="col-lg-3 text-center">
                     <img class="card-img" src={{asset("images/1.png")}} alt="1">
-                    <p><strong>Title:</strong>This is the title</p>
-                    <button class="btn btn-outline-success rounded">More</button>
+                    <p class="m-0 p-0"><strong>Title:</strong>This is the title</p>
+                    <a href="" class="">show more...</a>
                 </div>
                 <div class="col-lg-3 text-center">
                     <img class="card-img" src={{asset("images/2.png")}} alt="2">
-                    <p><strong>Title:</strong>This is the title</p>
-                    <button class="btn btn-outline-success rounded">More</button>
+                    <p class="m-0 p-0"><strong>Title:</strong>This is the title</p>
+                    <a href="" class="">show more...</a>
                 </div>
                 <div class="col-lg-3 text-center">
                     <img class="card-img" src={{asset("images/3.png")}} alt="3">
-                    <p><strong>Title:</strong>This is the title</p>
-                    <button class="btn btn-outline-success rounded">More</button>
+                    <p class="m-0 p-0"><strong>Title:</strong>This is the title</p>
+                    <a href="" class="">show more...</a>
                 </div>
                 <div class="col-lg-3 text-center">
                     <img class="card-img" src={{asset("images/4.png")}} alt="4">
-                    <p><strong>Title:</strong>This is the title</p>
-                    <button class="btn btn-outline-success rounded">More</button>
+                    <p class="m-0 p-0"><strong>Title:</strong>This is the title</p>
+                    <a href="" class="">show more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-content">
+            <div class="container pt-5">
+                <div class="mt-5 text-center">
+                    <h3 class="font-weight-bold text-light pt-5">What the type of tuors you look like from Cambodia?</h3>
+                    <p class="text-light">thank you so much for visit Cambodia.</p>
+                    <button class="btn btn-success rounded-0">Post Experience</button>
+                </div>
+            </div>
+        </div>
+        <div class="container p-5">
+            <h4 class="text-center">The most type exsperince</h4>
+            <p class="text-center">feel good with beautiful place.</p>
+            <div class="row justify-content-center">
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex1.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex2.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex3.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex4.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex5.png")}} alt="1">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex6.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex7.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex8.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex9.png")}} alt="1">
+                </div>
+                <div class="col-sm text-center">
+                    <img class="card-img" src={{asset("images/ex10.png")}} alt="1">
+                </div>
+            </div>
+        </div>
+        <div class="bg-light p-5">
+            <h4 class="text-center">OUR SPORNSOR</h4>
+            <p class="text-center">thank you so much.</p>
+            <div class="row justify-content-center pb-3">
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/a.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/b.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/c.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/d.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/e.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/f.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/g.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/h.png")}} alt="a">
+                </div>
+                <div class="col text-center">
+                    <img class="card-img" src={{asset("images/logos/i.png")}} alt="a">
+                </div>
+            </div>
+        </div>
+        <div class="bg-content-comment">
+            <div class="container p-1">
+                <div class=" row justify-content-center">
+                    <div class="col-lg-6 pt-5 mt-5 text-center d-none d-lg-block">
+                        <h3 class="font-weight-bold text-light pt-5">What the type of tuors you look like from Cambodia?</h3>
+                        <p class="text-light">thank you so much for visit Cambodia.</p>
+                        <button class="btn btn-success rounded-0">Post Experience</button>
+                    </div>
+                    <div class="col-lg-6 my-5 border-left">
+                        <div class="bg-form-comment p-4">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Username</label>
+                                    <input type="email" class="form-control rounded-0" id="name" placeholder="Enter name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control rounded-0" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input type="number" class="form-control rounded-0" id="phone" placeholder="Enter phone">
+                                </div>
+                                <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control rounded-0" id="password" placeholder="Enter password">
+                                </div>
+                                <div class="form-group">
+                                        <label for="confirm">Password</label>
+                                        <input type="password" class="form-control rounded-0" id="confirm" placeholder="Confirm password">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary rounded-0">Submit</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,5 +207,18 @@
         background-size: cover;
         background-position: 0;
         height: 500px;
+    }
+    .bg-content{
+        background: url('{{asset("images/resort.png")}}') no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    .bg-content-comment{
+        background: url('{{asset("images/bg-nature.png")}}') no-repeat;
+        background-size: cover;
+        /* height: 500px; */
+    }
+    .bg-form-comment{
+        background-color:rgba(255, 255, 255,0.5);
     }
 </style>
