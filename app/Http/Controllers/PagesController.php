@@ -41,12 +41,16 @@ class PagesController extends Controller
                 'Tbong Khmum Province',
             ),
             'type' => array('Resort', 'Temple', 'Beach', 'Restuarant', 'Mountaint', 'Island', 'River'),
+    
         );
 
         return view('pages.home.index', ["data" => $data]);
     }
 
     public function blog()
+    // $hello = array(
+    //     'name' => 'bunly',
+    //     'sex' => 'female');
     {
 
         return view('pages.blog');

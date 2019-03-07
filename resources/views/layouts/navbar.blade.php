@@ -7,19 +7,19 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class=" {{ Request::segment(1) === 'index' ? 'active' : 'nav-item' }}">
             <a class="nav-link" href="/">Home </a>
           </li>
-          <li class="nav-item">
+          <li class=" {{ Request::segment(1) === 'blog' ? 'active' : 'nav-item' }}">
             <a class="nav-link" href="/blog">Blog</a>
           </li>
-          <li class="nav-item">
+          <li class=" {{ Request::segment(1) === 'about' ? 'active' : 'nav-item' }}">
               <a class="nav-link" href="/about">About</a>
           </li>
-          <li class="nav-item">
+          <li class=" {{ Request::segment(1) === 'profile' ? 'active' : 'nav-item' }}">
               <a class="nav-link" href="/profile">Profile</a>
           </li>
-          <li class="nav-item">
+          <li class=" {{ Request::segment(1) === 'search' ? 'active' : 'nav-item' }}">
               <a class="nav-link" href="/search">Search</a>
           </li>
         </ul>
@@ -40,4 +40,4 @@
         background-color: rgba(45, 52, 54,1.0) ;
         color: #999;
     }
-    </style>
+</style>

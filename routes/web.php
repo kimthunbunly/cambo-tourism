@@ -11,6 +11,8 @@
 |
  */
 
-Route::get('/', 'PagesController@index')->name('home.index');
+Route::get('/index', 'PagesController@index')->name('home.index');
+Route::redirect('/','index');
+Route::redirect('/home','index');
 Route::get('/blog', 'PagesController@blog')->name('blog');
 Route::get('/about', 'PagesController@about')->name('about');

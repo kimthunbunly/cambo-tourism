@@ -19,7 +19,7 @@
 </html>
 <style>
     body{
-        font-family: tahoma;
+        font-family: "myfont";
         background-color: #CED6E0;
     }
 </style>

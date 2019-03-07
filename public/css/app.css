@@ -6,7 +6,13 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+ @font-face {
+  font-family: "myfont";
+  src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+}
+.body{
+  font-family: "myfont";
+}
 :root {
   --blue: #3490dc;
   --indigo: #6574cd;

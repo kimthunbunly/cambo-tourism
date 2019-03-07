@@ -5,12 +5,12 @@
                 <div class="text-center mt-5 pt-5">
                     <h1 class="font-weight-bold text-light">Welcome to Cambodia's tourism.</h1>
                     <p class="text-light">Welcome to Cambodia's tourism.</p>
-                    <button class="btn btn-success rounded-0">Subscribe</button>
+                    <a href="#form_subcribe" class="btn btn-success rounded-0">Subscribe</a>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center"> 
                 <div class="col bg-light shadow p-3" style="margin-top:-65px;">
                     <form>
                         <div class="row justify-content-center">
@@ -158,7 +158,7 @@
             </div>
         </div>
         <div class="bg-content-comment">
-            <div class="container p-1">
+            <div class="container p-1" id="form_subcribe">
                 <div class=" row justify-content-center">
                     <div class="col-lg-6 pt-5 mt-5 text-center d-none d-lg-block">
                         <h3 class="font-weight-bold text-light pt-5">What the type of tuors you look like from Cambodia?</h3>

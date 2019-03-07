@@ -1,4 +1,4 @@
-<div class="bg-gray">
+<footer class="bg-gray">
     <div class="container">
         <div class="p-4 text-center">
            <p class="m-0 p-0">All material herein © 2005–2019 Agoda Company Pte. Ltd. All Rights Reserved.</p>
@@ -11,7 +11,7 @@
             <p class="m-0 p-0">Copyright@By Cambo-Tourism</p>
         </div>
     </div>
-</div>
+</footer>
 
 <style scoped>
 .bg-gray{
